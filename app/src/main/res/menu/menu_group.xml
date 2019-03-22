@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Setting"
+        app:showAsAction="never"
+        android:id="@+id/setting_id">
+        <menu>
+            <item
+                android:id="@+id/menu_AAA"
+                android:title="AAA"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menu_BBB"
+                android:title="BBB"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <group >
+        <item
+            android:id="@+id/menu_id_A"
+            android:title="A"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_id_B"
+            android:title="B"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_id_C"
+            android:title="C"
+            app:showAsAction="never"
+            />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/menu_id_AA"
+            android:title="AA"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_id_BB"
+            android:title="BB"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_id_CC"
+            android:title="CC"
+            app:showAsAction="never"
+            />
+
+    </group>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/setting_menu_id"
+        android:title="Setting"
+        android:icon="@drawable/ic_setting"
+        />
+    <item
+        android:id="@+id/wifi_menu_id"
+        android:title="Wifi"
+        android:icon="@drawable/ic_wifi"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/internet_menu_id"
+        android:title="Internet"
+        android:icon="@drawable/ic_settings_ethernet"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/exit_menu_id"
+        android:title="Exit"
+        android:icon="@drawable/ic_setting"
+        app:showAsAction="never"/>
+
+
+</menu>
